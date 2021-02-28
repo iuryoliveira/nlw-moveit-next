@@ -3,6 +3,12 @@
   align-items: center;
 }
 
+@media (max-width: 482px) {
+  .profileContainer {
+    margin-top: 1.5rem;
+  }
+}
+
 .profileContainer > img {
   width: 5.5rem;
   height: 5.5rem;
