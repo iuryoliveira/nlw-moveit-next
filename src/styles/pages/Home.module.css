@@ -8,22 +8,22 @@
   flex-direction: column;
 }
 
+.countdownSection {
+  flex: 1;
+  display: grid;
+  gap: 6.25rem;
+  align-content: center;
+  padding-bottom: 2rem;
+}
+
 @media (max-width: 482px) {
-  .container section {
-    flex: 1;
-    display: grid;
+  .countdownSection {
     grid-template-rows: 1fr 1fr;
-    gap: 6.25rem;
-    align-content: center;
   }
 }
 
-@media (min-width: 482px) {
-  .container section {
-    flex: 1;
-    display: grid;
+@media (min-width: 483px) {
+  .countdownSection {
     grid-template-columns: 1fr 1fr;
-    gap: 6.25rem;
-    align-content: center;
   }
 }

@@ -19,12 +19,12 @@ export default function CountDown() {
   return(
     <div>
       <div className={styles.countDownContainer}>
-        <div>
+        <div className={styles.timer}>
           <span>{minuteLeft}</span>
           <span>{minuteRight}</span>
         </div>
         <span>:</span>
-        <div>
+        <div className={styles.timer}>
           <span>{secondLeft}</span>
           <span>{secondRight}</span>
         </div>
