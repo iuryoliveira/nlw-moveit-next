@@ -1,11 +1,28 @@
 .container {
   height: 100vh;
   max-width: 992px;
-  margin: 0 auto;
   padding: 2.5rem 2rem;
-
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 360px) {
+  .container {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 361px) {
+  .container {
+    margin-top: 0;
+    margin-left: 15%;
+  }
+}
+
+@media (min-width: 1068px) {
+  .container {
+    margin: 0 auto;
+  }
 }
 
 .countdownSection {

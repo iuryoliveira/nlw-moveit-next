@@ -1,0 +1,48 @@
+.sidebarContainer {
+  min-height: 100vh;
+  min-width: 5%;
+
+  position: fixed;
+
+  display: grid;
+  grid-template-rows: auto;
+
+  background: var(--white);
+  border-radius: 5px;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem 2rem;
+}
+
+@media (max-width: 360px) {
+  .sidebarContainer {
+    display: fixed;
+  }
+}
+
+.sidebarContainer button {
+  border: 0;
+  background: transparent;
+}
+
+.sidebarContainer img {
+  width: 2rem;
+}
+.sidebarContainer > div {
+  padding-bottom: 1rem;
+  color: var(--blue);
+}
+
+.retracted {
+  min-width: 5rem;
+}
+
+.retracted button {
+  min-width: 5rem;
+  border: 0;
+  background: transparent;
+}
+
+.selected {
+  width: 0.1rem;
+  background-color: var(--blue);
+}
