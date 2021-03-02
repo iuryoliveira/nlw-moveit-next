@@ -29,9 +29,7 @@ export default function Sidebar() {
       ) : (
         <>
           { width <= 480 && <button onClick={handleRetract}>☰</button> }
-          <button>
             <img src='/favicon.ico' alt='Moveit logo' />
-          </button>
           <div>
             <div className={isHomeSelected ? styles.selected : styles.notSelected}>
               <HomeOutlinedIcon />
